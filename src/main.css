@@ -9,3 +9,32 @@
 body {
   background: pink;
 }
+
+/* hjkl */
+.reveal .controls {
+  font-size: 1.15rem;
+}
+
+.reveal .controls .navigate-left, 
+.reveal .controls .navigate-up, 
+.reveal .controls .navigate-right, 
+.reveal .controls .navigate-down {
+  bottom: 0;
+  visibility: visible;
+  opacity: 0.3;
+  cursor: pointer;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.reveal .controls .navigate-left.enabled, 
+.reveal .controls .navigate-up.enabled ,
+.reveal .controls .navigate-right.enabled, 
+.reveal .controls .navigate-down.enabled {
+  opacity: 0.9;
+}
+
+.reveal .controls .navigate-left { right: 6rem; }
+.reveal .controls .navigate-down { right: 4rem; }
+.reveal .controls .navigate-up { right: 2rem; }
+.reveal .controls .navigate-right { right: 0rem; }

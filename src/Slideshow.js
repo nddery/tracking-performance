@@ -15,7 +15,20 @@ class Slideshow extends React.Component {
       history: true,
       overview: false,
       transitionSpeed: 'fast',
-      dependencies: [{ src: notesPluginUrl, async: true }]
+      dependencies: [{ src: notesPluginUrl, async: true }],
+      keyboard: {
+        72: 'prev',
+        74: 'down',
+        75: 'up',
+        76: 'next'
+      }
+    })
+
+    Reveal.addEventListener('ready', event => {
+      document.querySelector('.navigate-left').innerHTML = 'h'
+      document.querySelector('.navigate-down').innerHTML = 'j'
+      document.querySelector('.navigate-up').innerHTML = 'k'
+      document.querySelector('.navigate-right').innerHTML = 'l'
     })
   }
 
