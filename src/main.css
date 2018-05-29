@@ -7,11 +7,31 @@
 }
 
 body {
-  background: pink;
+  background: #f5e3e7;
 }
 
 .reveal section img {
   border: 0;
+}
+
+@media (min-width: 768px) {
+  .reveal ul {
+    margin: 0 3em;
+  }
+
+  .reveal ul li {
+    margin-bottom: 0.5em;
+  }
+}
+
+.reveal blockquote {
+  width: 80%;
+  padding-left: 20px;
+  font-style: italic;
+  background: transparent;
+  box-shadow: none;
+  border-left: 10px solid lavenderblush;
+  text-align: left;
 }
 
 /* hjkl */
