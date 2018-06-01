@@ -3,12 +3,13 @@ import React from 'react'
 export const RUM = () => (
   <section>
     <section>
-      <h2>Real User Monitoring</h2>
-      <p className="fragment fade-up">
-        <small>
+      <h2>
+        Real User Monitoring
+        <br />
+        <small className="smaller fragment fade-up">
           (mostly known as <strong>RUM</strong> 🥃)
         </small>
-      </p>
+      </h2>
 
       <p className="fragment fade-up">
         Measure page load time and performance timings/metrics experienced by
@@ -21,6 +22,8 @@ export const RUM = () => (
           <li>first contentful paint</li>
           <li>time to interactive</li>
         </ul>
+
+        <p>Could also be things like DNS lookup and SSL negotiation time</p>
       </aside>
     </section>
 
@@ -41,15 +44,14 @@ export const RUM = () => (
         by necessity, alter the state of what they measure in some manner.
       </p>
 
-      <p>
-        <a href="https://nicj.net/an-audit-of-boomerangs-performance/">
-          Boomerang performance audit
-        </a>
-      </p>
-
       <aside className="notes">
         <p>We want to avoid the observer effect, or limit it.</p>
         <p>At the very least, we want to understand it and acount for it.</p>
+        <p>
+          <a href="https://nicj.net/an-audit-of-boomerangs-performance/">
+            Boomerang performance audit
+          </a>
+        </p>
       </aside>
     </section>
 

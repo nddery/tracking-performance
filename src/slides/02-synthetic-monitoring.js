@@ -10,12 +10,13 @@ import datadogImage6 from '../images/datadog.6.png'
 export const SyntheticMonitoring = () => (
   <section>
     <section>
-      <h2>Synthetic monitoring</h2>
-      <p className="fragment fade-up">
-        <small>
+      <h2>
+        Synthetic monitoring
+        <br />
+        <small className="smaller fragment fade-up">
           (also known as <strong>lab data</strong>)
         </small>
-      </p>
+      </h2>
 
       <p className="fragment fade-up">
         A method to monitor your applications by simulating users.
@@ -25,9 +26,9 @@ export const SyntheticMonitoring = () => (
         <p>about instrumenting a website to gather performance metrics</p>
         <p>a lot like feature/e2e testing</p>
         <p>helps you analyze and optimize your website speed and performance</p>
-        <p>can be scripted/automated</p>
         <p>predictive</p>
         <p>controlled environment</p>
+        <p>can be scripted/automated</p>
       </aside>
     </section>
 
@@ -87,6 +88,13 @@ export const SyntheticMonitoring = () => (
 
     <section data-transition="fade-in">
       <img src={datadogImage1} />
+
+      <aside className="notes">
+        <p>Record Lighthouse results every 15/30 minutes</p>
+        <p>
+          Allows us to analyze those overtime, correlating to deploys and ...
+        </p>
+      </aside>
     </section>
 
     <section data-transition="fade-in">
@@ -107,17 +115,6 @@ export const SyntheticMonitoring = () => (
 
     <section data-transition="fade-in">
       <img src={datadogImage6} />
-    </section>
-
-    <section>
-      <img src={datadogImage1} />
-
-      <aside className="notes">
-        <p>Record Lighthouse results every 15/30 minutes</p>
-        <p>
-          Allows us to analyze those overtime, correlating to deploys and ...
-        </p>
-      </aside>
     </section>
 
     <section>

@@ -10,6 +10,10 @@ body {
   background: #f5e3e7;
 }
 
+.reveal small.smaller {
+  font-size: 0.5em;
+}
+
 .reveal section img {
   border: 0;
 }
@@ -31,6 +35,13 @@ body {
   background: transparent;
   box-shadow: none;
   border-left: 10px solid lavenderblush;
+  text-align: left;
+}
+
+.reveal cite {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
   text-align: left;
 }
 

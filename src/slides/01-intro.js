@@ -1,13 +1,14 @@
 import React from 'react'
-import glossierImage from '../images/glossier.png'
 
 export const Intro = () => (
   <section>
     <section>
-      <h2>Performance</h2>
-      <h3>a tracking story</h3>
-      <p>
+      <h2>
+        Performance
         <br />
+        <small>a tracking story</small>
+      </h2>
+      <p>
         <small>with Nicolas Duvieusart Déry</small>
       </p>
     </section>
@@ -19,9 +20,9 @@ export const Intro = () => (
         you can’t understand it, you can’t control it. If you can’t control it,
         you can’t improve it.
       </blockquote>
-      <p>
+      <cite>
         <small>H. James Harrington</small>
-      </p>
+      </cite>
     </section>
   </section>
 )

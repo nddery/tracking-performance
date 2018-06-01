@@ -34,10 +34,11 @@ export const HowToRUM = () => (
     </section>
 
     <section>
-      <h3>DIY RUM</h3>
-      <p className="fragment fade-up">
-        <small>(or moonshine ?)</small>
-      </p>
+      <h3>
+        DIY RUM
+        <br />
+        <small className="fragment fade-up smaller">(or moonshine ?)</small>
+      </h3>
 
       <ul>
         <li className="fragment fade-up">
